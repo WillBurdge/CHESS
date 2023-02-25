@@ -1,0 +1,57 @@
+**, **::after **::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00873431;
+}
+
+.chessboard {
+    border-collapse: collapse;
+    margin: auto;
+    width: auto;
+    margin-top: 5%;
+  }
+  
+  th {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+  }
+  
+  td {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    user-select: none;
+  }
+  
+  .light {
+    background-color: #f0d9b5;
+  }
+  
+  .dark {
+    background-color: #b58863;
+  }
+  
+  .dark, .light {
+    color: white;
+  }
+
+  #blkPcs {
+    color: black;
+  }
+  
+  /* Add hover effect to table cells */
+  td:hover {
+    background-color: #6cc385;
+  }
+
+ 
+  
+
+ 
